@@ -13,8 +13,9 @@ def sandwich_request(ingredients, order)
     ["swiss", "munster", "cheddar"],
     ["mayo", "mustard", "tabasco"]
 ]
-order= ingredients.include |x|
-sandwich_request(ingredients[order])
+    order= ingredients.include |x|
+    sandwich_request(ingredients[order])
+    return
 end
  
 # example city_info hash
