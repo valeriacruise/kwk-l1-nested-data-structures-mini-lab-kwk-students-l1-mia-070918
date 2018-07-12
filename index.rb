@@ -13,10 +13,10 @@ def sandwich_request(ingredients, order)
     ["swiss", "munster", "cheddar"],
     ["mayo", "mustard", "tabasco"]
 ]
-order= #{requests}
+order= ingredients.include |x|
 sandwich_request(ingredients[order])
 end
- ingredients.include (rye, turkey, mustard)
+ 
 # example city_info hash
 cities = {
   :new_york => { 
