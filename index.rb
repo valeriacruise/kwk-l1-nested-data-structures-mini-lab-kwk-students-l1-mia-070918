@@ -16,7 +16,7 @@ def sandwich_request(ingredients, order)
 order= #{requests}
 sandwich_request(ingredients[order])
 end
- name.include (rye, turkey, mustard)
+ ingredients.include (rye, turkey, mustard)
 # example city_info hash
 cities = {
   :new_york => { 
